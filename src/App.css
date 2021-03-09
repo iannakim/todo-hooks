@@ -1,6 +1,7 @@
 .app {
   height: 100vh;
   padding: 40px;
+  text-align: center;
 }
 
 
@@ -20,7 +21,7 @@
   border-radius: 5px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.35);
   display: flex;
-  font-size: 1.2em;
+  font-size: 1.0em;
   justify-content: space-between;
   margin-bottom: 10px;
   padding: 5px 10px;
@@ -29,8 +30,7 @@
 input {
   width: 95%;
   padding: 5px 10px;
-  background: rgba(200, 209, 238, 0.454);
-  color: #ffff;
+  background: rgba(241, 243, 250, 0.801);
 }
 
 .hook {
@@ -45,4 +45,20 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+button {
+  margin-left: 5px;
+  border-radius: 3px;
+  border: none;
+  height: 23px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.35);
+}
+
+.complete {
+  background: #73e0f4;
+}
+
+.remove {
+  background: rgb(162, 162, 162);
 }
