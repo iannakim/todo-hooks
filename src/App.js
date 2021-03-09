@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-
+import hook from './image/hook.png'
 
 function Todo({ todo, index, completeTodo, removeTodo }) {
   return(
@@ -30,7 +30,7 @@ function TodoForm({addTodo}) {
         type="text" 
         className="input" 
         value={value} 
-        placeholder="Add To do.." 
+        placeholder="Add To do and press enter" 
         onChange={e => setValue(e.target.value)} />
     </form>
   )
@@ -72,6 +72,8 @@ function App() {
 
   return (
     <div className="app">
+      <img className="hook" src={ hook }/>
+      <h1>What's on your list today?</h1>
       <div className="todo-list">
         {todos.map((todo, index) => (
           <Todo key={index} index={index} todo={todo} completeTodo={completeTodo} removeTodo={removeTodo}/>
@@ -83,3 +85,6 @@ function App() {
 }
 
 export default App;
+
+
+// https://www.youtube.com/watch?v=mxK8b99iJTg

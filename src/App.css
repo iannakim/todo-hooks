@@ -1,24 +1,48 @@
 .app {
-  background: #209cee;
   height: 100vh;
-  padding: 30px;
+  padding: 40px;
 }
 
+
 .todo-list {
-  background: #e8e8e8;
-  border-radius: 4px;
+  background: #ffffff70;
+  border-radius: 10px;
   max-width: 400px;
-  padding: 5px;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .todo {
   align-items: center;
-  background: #fff;
-  border-radius: 3px;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.35);
   display: flex;
-  font-size: 12px;
+  font-size: 1.2em;
   justify-content: space-between;
-  margin-bottom: 6px;
-  padding: 3px 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+
+input {
+  width: 95%;
+  padding: 5px 10px;
+  background: rgba(200, 209, 238, 0.454);
+  color: #ffff;
+}
+
+.hook {
+  max-width: 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color:#fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
